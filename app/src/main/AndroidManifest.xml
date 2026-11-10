@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permiso obligatorio para conectar con Django / Azure Cloud -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/splash_impusonica"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash_impusonica"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ImpulsoNica">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ImpulsoNica"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Candidato_homeActivity" />
+        <activity android:name=".Candidato_notificacionesActivity" />
+        <activity android:name=".Candidato_vacantesActivity" />
+        <activity android:name=".Candidato_perfilActivity" />
+        <activity android:name=".Candidato_postulacionesActivity" />
+        <activity android:name=".Vista_vacanteActivity" />
+        <activity android:name=".Dashboard_homeActivity" />
+        <activity android:name=".Dashboard_vacantesActivity" />
+        <activity android:name=".Dashboard_candidatosActivity" />
+        <activity android:name=".Dashboard_empresasActivity" />
+        <activity android:name=".Empresa_homeActivity" />
+        <activity android:name=".Empresa_notificacionesActivity" />
+        <activity android:name=".Empresa_vacantesActivity" />
+        <activity android:name=".Empresa_perfilActivity" />
+    </application>
+
+</manifest>

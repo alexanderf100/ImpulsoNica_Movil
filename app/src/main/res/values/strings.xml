@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">ImpulsoNica</string>
+
+    //main
+    <string name="description1_main">Logo ImpulsoNica</string>
+    <string name="txt1_main">Inicio de sesion</string>
+    <string name="hint1_main">Correo</string>
+    <string name="hint2_main">Contraseña</string>
+    <string name="txt2_main">Ingresar</string>
+    <string name="txt3_main">Recuperar Contraseña</string>
+    <string name="txt4_main">Crear cuenta</string>
+
+    //home
+    <string name="description1_home">Logo ImpulsoNica</string>
+    <string name="txt1_home">ImpulsoNica</string>
+    <string name="descrption2_homme">Cerrar sesión</string>
+    <string name="txt2_home">¡Bienvenido, Ricardo!</string>
+    <string name="txt3_home">Conectamos talento y empresas</string>
+    <string name="txt4_home">Encuentra tu camino hacia nuevas oportunidades laborales.</string>
+    <string name="descrption3_home">Inicio</string>
+    <string name="descrption4_home">empleos</string>
+    <string name="descrption5_home">notificaciones</string>
+    <string name="descrption6_home">Perfil</string>
+
+    //vacantes
+    <string name="txt1_vacantes">Vacantes</string>
+    <string name="hint_vacantes">Buscar vacantes...</string>
+    <string name="txt2_vacantes">Buscar</string>
+    <string name="descrption1_vacantes">Inicio</string>
+    <string name="descrption2_vacantes">empleos</string>
+    <string name="descrption3_vacantes">notificaciones</string>
+    <string name="descrption4_vacantes">Perfil</string>
+
+    //notificaciones
+    <string name="txt1_notificaciones">Notificaciones</string>
+    <string name="descrption1_notificaciones">Inicio</string>
+    <string name="descrption2_notificaciones">empleos</string>
+    <string name="descrption3_notificaciones">notificaciones</string>
+    <string name="descrption4_notificaciones">Perfil</string>
+
+    //home dashboard
+    <string name="description1_homedash">Logo ImpulsoNica</string>
+    <string name="txt1_homedash">ImpulsoNica</string>
+    <string name="descrption2_homedash">Cerrar sesión</string>
+    <string name="txt2_homedash">¡Bienvenido!</string>
+    <string name="txt3_homedash">Datos estadísticos de ImpulsoNica</string>
+    <string name="descrption3_homedash">Inicio</string>
+    <string name="descrption4_homedash">Vacantes</string>
+    <string name="descrption5_homedash">Candidatos</string>
+    <string name="descrption6_homedash">Empresas</string>
+
+    //Vacantes dashboard
+    <string name="txt1_vacantesdash">Dashboard vacantes</string>
+    <string name="descrption1_vacantesdash">Inicio</string>
+    <string name="descrption2_vacantesdash">Vacantes</string>
+    <string name="descrption3_vacantesdash">Candidatos</string>
+    <string name="descrption4_vacantesdash">Empresas</string>
+
+    //Candidatos dashboard
+    <string name="txt1_candidatosdash">Dashboard Candidatos</string>
+    <string name="descrption1_candidatosdash">Inicio</string>
+    <string name="descrption2_candidatosdash">Vacantes</string>
+    <string name="descrption3_candidatosdash">Candidatos</string>
+    <string name="descrption4_candidatosdash">Empresas</string>
+
+    //Empresas dashboard
+    <string name="txt1_empresasdash">Dashboard Empresas</string>
+    <string name="descrption1_empresasdash">Inicio</string>
+    <string name="descrption2_empresasdash">Vacantes</string>
+    <string name="descrption3_empresasdash">Candidatos</string>
+    <string name="descrption4_empresasdash">Empresas</string>
+
+</resources>
